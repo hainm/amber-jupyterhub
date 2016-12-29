@@ -14,6 +14,7 @@ bash run_hub.sh
 # Run jupyterhub without docker
 
 ```bash
+# require conda
 bash setup_jupyterhub_without_docker.sh
 source activate jupyterhub
 jupyterhub
