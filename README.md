@@ -15,6 +15,7 @@ bash run_hub.sh
 
 ```bash
 bash setup_jupyterhub_without_docker.sh
+source activate jupyterhub
 jupyterhub
 ```
 
