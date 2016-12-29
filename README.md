@@ -1,5 +1,5 @@
 # build docker image
 
 ```bash
-docker build -t ambermd/amber_jupyterhub .
+docker build -t ambermd/amber-jupyterhub .
 ```
