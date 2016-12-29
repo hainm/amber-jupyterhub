@@ -1,6 +1,6 @@
 - In one terminal
 ```bash
-docker run -it --name -p 8000:8000 jupyterhub ambermd/amber_jupyterhub
+docker run -it --name jupyterhub -p 8000:8000 ambermd/amber_jupyterhub
 ```
 
 - In another terminal
@@ -18,3 +18,6 @@ conda install ambertools -c hainm
 groupadd jupyterhub
 useradd -m -d /home/hello/ -s /bin/bash -G jupyterhub hello
 ```
+
+- How user can run it locally?
+Open `http://localhost:8000/`
