@@ -13,12 +13,17 @@ bash run_hub.sh
 
 # Run jupyterhub without docker
 
+- setup
 ```bash
 # require conda
-bash setup_jupyterhub_without_docker.sh
-source activate jupyterhub
+source setup_jupyterhub_without_docker.sh
 jupyterhub
 ```
+
+- try
+
+  - Paste "http://127.0.0.1:8000/" to your web browser
+  - Login with your username and password (from your account)
 
 # Build docker image (developer)
 
