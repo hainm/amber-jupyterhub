@@ -48,7 +48,7 @@ Disclaimer: I am not really sure if this is secure.
 
 - Server
     - Download and unzip `ngrok` from https://ngrok.com/
-    - Run ./ngrok http 8000 (You will see something like `http://xxxx.ngrok.io -> localhost:8000`)
+    - Run `./ngrok http 8000` (You will see something like `http://xxxx.ngrok.io -> localhost:8000`)
     - In another terminal, run: jupyterhub
 - User
     - Open web browser and paste `http://xxxx.ngrok.io` (replace `xxxx` by actual address)
