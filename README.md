@@ -55,7 +55,7 @@ Disclaimer: I am not really sure if this is secure.
 
 User will see
 
-![login](images/login.png =300x)
+<img src="images/login.png" width="400">
     
 # Useful link
 
