@@ -6,6 +6,7 @@ if [ "$checkenv" == "" ]; then
 fi
 
 source activate jupyterhub_env
+conda install nodejs -y
 conda install jupyterhub -c conda-forge -y
 conda install numpy nomkl -y
 conda install nglview -c bioconda -y

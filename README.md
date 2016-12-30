@@ -11,6 +11,16 @@ bash run_hub.sh
   - Paste "http://127.0.0.1:8000/" to your web browser
   - Login with username='hello' and password=666666
 
+- add new user
+Supposed you have a running server
+```bash
+# login to the docker container "jupyterhub"
+docker exec -it jupyterhub bash
+
+# add "new_user" account
+useradd -m -d /home/new_user/ -s /bin/bash -G jupyterhub new_user
+```
+
 # Run jupyterhub without docker
 
 - setup
