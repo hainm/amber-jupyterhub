@@ -42,7 +42,7 @@ docker build -t ambermd/amber-jupyterhub .
 ```
 
 # Tips
-- Use `ngrok` for port forwarding (safely?)
+- Use [ngrok](https://ngrok.com/) for port forwarding (safely?)
 
 Disclaimer: I am not really sure if this is secure.
 
