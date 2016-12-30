@@ -41,3 +41,6 @@ jupyterhub
 docker build -t ambermd/amber-jupyterhub .
 ```
 
+# Useful link
+
+- [https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/](https://developer.rackspace.com/blog/deploying-jupyterhub-for-education/)
