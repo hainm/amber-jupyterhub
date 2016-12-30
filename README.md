@@ -52,6 +52,10 @@ Disclaimer: I am not really sure if this is secure.
     - In another terminal, run: jupyterhub
 - User
     - Open web browser and paste `http://xxxx.ngrok.io` (replace `xxxx` by actual address)
+
+User will see
+
+[login](images/login.png)
     
 # Useful link
 
