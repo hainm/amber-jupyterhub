@@ -1,5 +1,11 @@
 # create python3.5 env since jupyterhub_env won't run on py2
 
+# Note: We use both "defaults" (Anaconda) and "conda-forge" channels
+# Since conda-forge packages are frequently updated, conda-forge will be
+# the main channel to install new package. However, we still install
+# some packages having C/C++ extension from "defaults" channel
+# to maximixe compatibility (if we are using very old Linux distro)
+
 checkenv=`conda env list | grep "jupyterhub_env"`
 if [ "$checkenv" == "" ]; then
     conda create -n jupyterhub_env python=3.5 notebook -y
