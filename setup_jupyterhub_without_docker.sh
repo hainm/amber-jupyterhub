@@ -11,6 +11,7 @@ conda install jupyterhub -c conda-forge -y
 conda install numpy nomkl -c defaults -y
 conda install nglview -c bioconda -y
 conda install ambertools -c hainm -y
+conda install matplotlib -c defaults -y
 
 jupyter nbextension enable --py nglview --sys-prefix
 
