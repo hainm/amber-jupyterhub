@@ -12,6 +12,7 @@ bash run_hub.sh
   - Login with username='hello' and password=666666
 
 - add new user
+
 Supposed you have a running server
 ```bash
 # login to the docker container "jupyterhub"
